@@ -15,4 +15,4 @@ jobs:
           token: ${{ secrets.PAT_DOCS }}
           repository: salomob-dynasafe/mkdocs-githubpages # Replace with Repo A's owner/repo name
           event-type: docs-update # A custom event type to identify this trigger
-          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
+          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}","source_repo_full_name": "${{ github.repository }}"}'
