@@ -1,3 +1,3 @@
-# testing
+# testing repo
 
-check
+pushes docs to https://salomob-dynasafe.github.io/mkdocs-githubpages/
